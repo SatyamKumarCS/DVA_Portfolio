@@ -13,11 +13,12 @@ export default function Sidebar() {
       </p>
 
       <a
-        href={`${import.meta.env.BASE_URL}Satyam_Kumar_Resume.pdf`}
-        download="Satyam_Kumar_Resume.pdf"
+        href="https://drive.google.com/file/d/1eJAKbrsFCTqeXijU2IN5qtJ9PVyUfQHL/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
         className="sidebar-follow-btn"
       >
-        Download Resume
+        View Resume
       </a>
       <div className="sidebar-socials">
         <a
