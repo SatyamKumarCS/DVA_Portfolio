@@ -1,5 +1,6 @@
 # Data Analytics & Software Portfolio
 
+
 Welcome to my portfolio! This project is a modern, responsive web application built with **React** and **Vite**, designed to showcase my expertise in Data Analytics, Python, and Full-Stack Development. The interface is inspired by the sleek and functional design of GitHub.
 
 ## About Me
