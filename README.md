@@ -1,4 +1,4 @@
-# Data Analytics & Software Portfolio 📊
+# Data Analytics & Software Portfolio
 
 Welcome to my portfolio! This project is a modern, responsive web application built with **React** and **Vite**, designed to showcase my expertise in Data Analytics, Python, and Full-Stack Development. The interface is inspired by the sleek and functional design of GitHub.
 
@@ -16,11 +16,14 @@ I specialize in extracting actionable insights from complex datasets and buildin
 - **Contribution Graph**: A visual representation of activity and consistency.
 
 ## 🛠️ Tech Stack
-- **Frontend**: React.js, Vite
-- **Styling**: Vanilla CSS (Modern GitHub aesthetic)
+- **Languages**: Python (Pandas, NumPy, Matplotlib, OpenCV), JavaScript, TypeScript, Java, SQL
+- **Frontend**: React.js, Next.js, Vite, HTML, CSS
+- **Backend & Tools**: Node.js, Express, Prisma ORM, PostgreSQL, MySQL, Nginx
+- **Cloud & DevOps**: AWS, Docker, Kubernetes, GitHub Actions, Git
+- **AI & ML**: Generative AI, LangChain, LangGraph, Hugging Face
+- **Testing**: Jest, Cypress, Playwright
+- **Methodology**: Agile Principles & Scrum
 - **Analytics Tools**: Tableau, Excel, Google Sheets
-- **Programming**: Python (Pandas, NumPy), JavaScript
-- **Backend (Referenced Projects)**: Node.js, Express, Prisma ORM, PostgreSQL
 
 ## 📂 Featured Projects
 - **British Airways Analytics**: Passenger review analysis and insights dashboard.
@@ -58,7 +61,4 @@ I specialize in extracting actionable insights from complex datasets and buildin
 - **Email**: [satyamkumarch15@gmail.com](mailto:satyamkumarch15@gmail.com)
 - **LinkedIn**: [satyam-kumar-152840323](https://www.linkedin.com/in/satyam-kumar-152840323/)
 - **GitHub**: [@SatyamKumarCS](https://github.com/SatyamKumarCS)
-- **Phone**: +91 9332338373
 
----
-*Built with ❤️ by Satyam Kumar*

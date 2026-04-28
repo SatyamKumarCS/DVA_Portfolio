@@ -65,18 +65,36 @@ export default function Sidebar(){
           <span className="org-pill">Python</span>
           <span className="org-pill">TypeScript</span>
           <span className="org-pill">JavaScript</span>
+          <span className="org-pill">Java</span>
           <span className="org-pill">SQL</span>
-          <span className="org-pill">NoSQL</span>
+          <span className="org-pill">MySQL</span>
           <span className="org-pill">HTML</span>
+          <span className="org-pill">CSS</span>
+          <span className="org-pill">Next JS</span>
           <span className="org-pill">React</span>
           <span className="org-pill">Node.js</span>
           <span className="org-pill">Express JS</span>
           <span className="org-pill">Prisma ORM</span>
           <span className="org-pill">PostgreSQL</span>
-          <span className="org-pill">MySQL</span>
+          <span className="org-pill">AWS</span>
+          <span className="org-pill">Docker</span>
+          <span className="org-pill">Kubernetes</span>
+          <span className="org-pill">Nginx</span>
+          <span className="org-pill">Generative AI</span>
+          <span className="org-pill">LangChain</span>
+          <span className="org-pill">LangGraph</span>
+          <span className="org-pill">Hugging Face</span>
+          <span className="org-pill">OpenCV</span>
+          <span className="org-pill">Matplotlib</span>
           <span className="org-pill">NumPy</span>
           <span className="org-pill">Pandas</span>
           <span className="org-pill">Excel</span>
+          <span className="org-pill">Agile Principles & Scrum</span>
+          <span className="org-pill">Git and Github</span>
+          <span className="org-pill">GitHub Actions</span>
+          <span className="org-pill">Jest</span>
+          <span className="org-pill">Cypress</span>
+          <span className="org-pill">Playwright</span>
         </div>
       </div>
     </aside>
