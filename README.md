@@ -1,17 +1,64 @@
-# React + Vite
+# Data Analytics & Software Portfolio 📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! This project is a modern, responsive web application built with **React** and **Vite**, designed to showcase my expertise in Data Analytics, Python, and Full-Stack Development. The interface is inspired by the sleek and functional design of GitHub.
 
-Currently, two official plugins are available:
+## 👤 About Me
+**Satyam Kumar**  
+*Data Analytics Enthusiast | Newton School of Technology, Rishihood University*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I specialize in extracting actionable insights from complex datasets and building interactive dashboards that drive decision-making. My skillset spans from core data tools like **Excel** and **Tableau** to programming with **Python** and full-stack development.
 
-## React Compiler
+## 🚀 Key Features
+- **Dynamic Project Filtering**: Categorize and view projects based on the tools used (Tableau, Python, Excel, etc.).
+- **Interactive Dashboards**: Direct links to live Tableau Public visualizations and Google Sheets.
+- **GitHub Integration**: A stylized repository list that mirrors the GitHub UI for a familiar, professional look.
+- **Responsive Design**: Fully optimized for mobile and desktop viewing.
+- **Contribution Graph**: A visual representation of activity and consistency.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Vite
+- **Styling**: Vanilla CSS (Modern GitHub aesthetic)
+- **Analytics Tools**: Tableau, Excel, Google Sheets
+- **Programming**: Python (Pandas, NumPy), JavaScript
+- **Backend (Referenced Projects)**: Node.js, Express, Prisma ORM, PostgreSQL
 
-## Expanding the ESLint configuration
+## 📂 Featured Projects
+- **British Airways Analytics**: Passenger review analysis and insights dashboard.
+- **Credit Card Complaints Analysis**: Comprehensive dashboard highlighting resolution efficiency.
+- **Covid-19 Analytics**: India-specific trend tracking and recovery analysis.
+- **Road Accident Analytics**: Pattern identification and risk factor analysis.
+- **Amazon PrimeVideo Analytics**: Catalog EDA examining genres and ratings.
+- **Real Estate Market Analysis**: Excel-based investment strategy and trend evaluation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# portfolio
+## 🛠️ Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v16.0.0 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SatyamKumarCS/DVA_Portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd DVA_Portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Contact Information
+- **Email**: [satyamkumarch15@gmail.com](mailto:satyamkumarch15@gmail.com)
+- **LinkedIn**: [satyam-kumar-152840323](https://www.linkedin.com/in/satyam-kumar-152840323/)
+- **GitHub**: [@SatyamKumarCS](https://github.com/SatyamKumarCS)
+- **Phone**: +91 9332338373
+
+---
+*Built with ❤️ by Satyam Kumar*
