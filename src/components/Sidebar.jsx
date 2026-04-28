@@ -59,6 +59,30 @@ export default function Sidebar() {
         </div>
       </div>
 
+      <div className="sidebar-achievements">
+        <h3 className="sidebar-orgs-title">Achievements</h3>
+        <div className="achievement-badges">
+          <img
+            src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png"
+            alt="Pair Extraordinaire"
+            className="achievement-badge"
+            title="Pair Extraordinaire"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png"
+            alt="Quickdraw"
+            className="achievement-badge"
+            title="Quickdraw"
+          />
+          <img
+            src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png"
+            alt="Pull Shark"
+            className="achievement-badge"
+            title="Pull Shark"
+          />
+        </div>
+      </div>
+
       <div className="sidebar-orgs">
         <h3 className="sidebar-orgs-title">Skills</h3>
         <div className="sidebar-orgs-list">
@@ -96,6 +120,8 @@ export default function Sidebar() {
           <span className="org-pill">Playwright</span>
         </div>
       </div>
+
+
     </aside>
   )
 }
