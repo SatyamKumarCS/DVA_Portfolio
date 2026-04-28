@@ -1,42 +1,55 @@
-export default function ContributionGraph(){
-  const weeks=52
-  const days=7
-  const levels=["#161b22","#0e4429","#006d32","#26a641","#39d353"]
+import { useState, useEffect } from "react"
 
-  const generateGrid=()=>{
-    const grid=[]
-    for(let w=0;w<weeks;w++){
-      const week=[]
-      for(let d=0;d<days;d++){
-        const rand=Math.random()
-        let level=0
-        if(rand>0.7) level=1
-        if(rand>0.8) level=2
-        if(rand>0.88) level=3
-        if(rand>0.94) level=4
-        week.push(level)
-      }
-      grid.push(week)
-    }
-    return grid
+export default function ContributionGraph() {
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const levels = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+
+  const levelMap = {
+    "NONE": 0,
+    "FIRST_QUARTILE": 1,
+    "SECOND_QUARTILE": 2,
+    "THIRD_QUARTILE": 3,
+    "FOURTH_QUARTILE": 4
   }
 
-  const grid=generateGrid()
-  const total=grid.flat().reduce((sum,l)=>sum+l*3,0)
+  useEffect(() => {
+    fetch("https://github-contributions-api.deno.dev/SatyamKumarCS.json")
+      .then(res => res.json())
+      .then(res => {
+        setData(res)
+        setLoading(false)
+      })
+      .catch(() => setLoading(false))
+  }, [])
 
-  return(
+  if (loading) {
+    return (
+      <div className="contribution-section">
+        <h3 className="contribution-title">Loading contributions...</h3>
+      </div>
+    )
+  }
+
+  if (!data || !data.contributions) return null
+
+  const grid = data.contributions
+  const total = data.totalContributions || 0
+
+  return (
     <div className="contribution-section">
       <h3 className="contribution-title">
         {total.toLocaleString()} contributions in the last year
       </h3>
       <div className="contribution-graph">
-        {grid.map((week,wi)=>(
+        {grid.map((week, wi) => (
           <div key={wi} className="contribution-week">
-            {week.map((level,di)=>(
+            {week.map((day, di) => (
               <div
                 key={di}
                 className="contribution-cell"
-                style={{backgroundColor:levels[level]}}
+                title={`${day.contributionCount} contributions on ${day.date}`}
+                style={{ backgroundColor: levels[levelMap[day.contributionLevel] || 0] }}
               />
             ))}
           </div>
@@ -44,11 +57,11 @@ export default function ContributionGraph(){
       </div>
       <div className="contribution-legend">
         <span className="contribution-legend-label">Less</span>
-        {levels.map((color,i)=>(
+        {levels.map((color, i) => (
           <div
             key={i}
             className="contribution-cell"
-            style={{backgroundColor:color}}
+            style={{ backgroundColor: color }}
           />
         ))}
         <span className="contribution-legend-label">More</span>
